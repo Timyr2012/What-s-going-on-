@@ -1,0 +1,163 @@
+body{
+    background-color: #E7DFD8;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+
+.span{
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+
+.container{
+    width: 1136px;
+    margin: auto;
+}
+
+.hero{
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+.hero-container{
+    display: flex;
+}
+.hero-img{
+    margin-right: 107px;
+
+}
+.hero-number{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hero-span{
+    font-size: 37px;
+    background-color: #B99FEA;
+}
+.hero-title{
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+.hero-number{
+    font-size: 19px;
+}
+
+.hero-text{
+    max-width: 494px;
+    box-shadow: 0 4 4 0 #000000 25;
+}
+
+
+.hero-button{
+    padding: 10px 20px 10px 20px;
+    background-color: #B99FEA;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.gutara{
+    padding-top: 113px;
+    padding-bottom: 112px;
+}
+
+.gutara-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.gutara-img{
+    margin-right: 107px;
+    margin-left: 80px;
+}
+.gutara-number{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.gutara-span{
+    font-size: 37px;
+    background-color:#EBA789;
+}
+.gutara-title{
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+.gutara-number{
+    font-size: 19px;
+}
+
+.gutara-text{
+    max-width: 494px;
+    box-shadow: 0 4 4 0 #000000 25;
+}
+
+.gutara-button{
+    padding: 10px 20px 10px 20px;
+    background-color: #EBA789;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+
+
+.wasser{
+    padding-top: 113px;
+    padding-bottom: 112px;
+}
+.wasser-container{
+    display: flex;
+}
+.wasser-img{
+    margin-right: 107px;
+}
+.wasser-number{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.wasser-span{
+    font-size: 37px;
+    background-color:#96DBC6;
+}
+.wasser-title{
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+.wasser-number{
+    font-size: 19px;
+}
+
+.wasser-text{
+    max-width: 494px;
+    box-shadow: 0 4 4 0 #000000 25;
+}
+
+
+.wasser-button{
+    padding: 10px 20px 10px 20px;
+    background-color: #96DBC6;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-top: 35px;
+}
