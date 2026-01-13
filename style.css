@@ -2,12 +2,21 @@ body{
     background-color: #E7DFD8;
     font-family: "Inter", sans-serif;
     font-size: 14px;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1,h2,h3,p{
     padding: 0;
     margin: 0;
+    color: #101010;
 }
+p{
+    line-height: 22.08px;
+}
+
+
+
 
 .span{
     line-height: 24px;
@@ -20,7 +29,7 @@ h1,h2,h3,p{
 }
 
 .container{
-    width: 1136px;
+    width: 1119px;
     margin: auto;
 }
 
@@ -30,10 +39,8 @@ h1,h2,h3,p{
 }
 .hero-container{
     display: flex;
-}
-.hero-img{
-    margin-right: 107px;
-
+    justify-content: space-between;
+    gap: 107px;
 }
 .hero-number{
     display: flex;
@@ -55,8 +62,7 @@ h1,h2,h3,p{
 }
 
 .hero-text{
-    max-width: 494px;
-    box-shadow: 0 4 4 0 #000000 25;
+    text-shadow: 0px 4px 4px #00000040;
 }
 
 
@@ -77,10 +83,8 @@ h1,h2,h3,p{
 .gutara-container{
     display: flex;
     flex-direction: row-reverse;
-}
-.gutara-img{
-    margin-right: 107px;
-    margin-left: 80px;
+    justify-content: space-between;
+    gap: 107px;
 }
 .gutara-number{
     display: flex;
@@ -102,11 +106,6 @@ h1,h2,h3,p{
     font-size: 19px;
 }
 
-.gutara-text{
-    max-width: 494px;
-    box-shadow: 0 4 4 0 #000000 25;
-}
-
 .gutara-button{
     padding: 10px 20px 10px 20px;
     background-color: #EBA789;
@@ -124,9 +123,8 @@ h1,h2,h3,p{
 }
 .wasser-container{
     display: flex;
-}
-.wasser-img{
-    margin-right: 107px;
+    justify-content: space-between;
+    gap: 107px;
 }
 .wasser-number{
     display: flex;
@@ -145,11 +143,6 @@ h1,h2,h3,p{
 }
 .wasser-number{
     font-size: 19px;
-}
-
-.wasser-text{
-    max-width: 494px;
-    box-shadow: 0 4 4 0 #000000 25;
 }
 
 
